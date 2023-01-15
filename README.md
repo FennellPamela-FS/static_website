@@ -12,5 +12,8 @@ This exercise will use Next.js and Gatsby to deploy a bare bones static site whi
 ### What to expect
 - Demonstrates source code update with at least one unique edit
 
-
+#### To run application
+``` shell
+npm run dev
+```
 
