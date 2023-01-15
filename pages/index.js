@@ -11,41 +11,34 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          I will Learn to <a href="https://nextjs.org">Next.js!</a>
+          Deploying A Static Website
         </h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          WDV463: 1.6 Exercise
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <span className={styles.card}>
+            <h3>Course: &#127891;</h3>
+            <p>Deployment of Web Applications</p>
+          </span>
+
+          <span className={styles.card}>
+            <h3>Technology: &#127950;</h3>
+            <p>Using Next.js under the hood.</p>
+          </span>
+
+          <span className={styles.card}>
+            <h3>Code: &#128187;</h3>
+            <p>Managed through GitHub</p>
+          </span>
+
+          <a href='https://cool-tapioca-70ff0d.netlify.app/' className={styles.card}>
+            <h3>Live Server: &rarr;</h3>
+            <p>Website shared on netlify</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
         </div>
       </main>
 
@@ -56,7 +49,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
+          &#128165; a Student
         </a>
       </footer>
 
